@@ -144,6 +144,13 @@ footer{
     .final-section-img{
         margin: 40px 0;
     }
+    .initial-text p{
+       width: 70vw;
+    
+    }
+    .initial-text{
+        margin-right: 100px;
+    }
 }
 @media only screen and (min-width: 577px) and (max-width:778px){
     .wo-j-title{
