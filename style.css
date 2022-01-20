@@ -47,4 +47,118 @@ header{
     border-radius: 15px;
     color: white;
     font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+}
+
+
+
+
+
+.jacket-bg{
+    background-color: #F1F1F1;
+}
+.wo-j-title{
+    font-family: 'Bebas Neue', cursive;
+
+}
+.wo-jacket{
+    margin-top: 50px ;
+    margin-bottom: 100px ;
+
+}
+.jacket-1,.jacket-2,.jacket-3{
+    border-radius: 20px;
+    width: 370px;
+}
+.jacket-4,.jacket-5,.jacket-6{
+    border-radius: 20px;
+    width: 370px;
+}
+.secondary-button{
+    outline: 0;
+    padding: 8px 17px;
+    border: 0;
+    background-color: #A4BC46;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.product-title{
+    font-size: 24;
+}
+.product-details{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.perf-fit{
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.fianl-section{
+    margin-bottom: 120px;
+    margin-top: 90px;
+}
+
+
+/*----------------- 
+ footer section styling: */
+footer{
+
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+}
+.footer-elements .pf{
+    color: #FABE4C;
+}
+.footer-elements h1{
+    
+}
+.social i{
+    padding: 10px;
+    background-color:gray;
+    border-radius: 20px;
+    margin-right:20px;
+    
+}
+
+
+
+
+/* Responsiveness: */
+@media only screen and (max-width: 576px) {
+    .initial-heading{
+        font-size: 30px;
+        margin-top: 70px;
+    }
+    .wo-j-title{
+        text-align: center;
+    }
+    .wom-j{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .final-section-img{
+        margin: 40px 0;
+    }
+}
+@media only screen and (min-width: 577px) and (max-width:778px){
+    .wo-j-title{
+        text-align: center;
+    }
+    .wom-j{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .initial-image{
+        margin-top: 50px;
+    
+    }
+   .initial-text,.initial-image{
+       margin-right: 120px;
+   }
 }
